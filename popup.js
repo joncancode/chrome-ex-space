@@ -8,7 +8,7 @@ function getSpaceData() {
         spaceData.innerHTML = response.data.forms[0].name;
     })
     .catch(function (error) {
-        spaceData.innerHTML = "(An error has occurred.)";
+        spaceData.innerHTML = "An error has occurred";
     });
 }
 
