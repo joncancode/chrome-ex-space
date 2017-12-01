@@ -3,6 +3,9 @@
     "name": "SpaceXtension",
     "version": "1.0",
     "description": "A SpaceXtension for your Chrome Browser",
+    "permissions": [
+        "https://github.com/r-spacex/*"
+    ],
     "icons": {
         "128": "images/icon128.png",
         "48": "images/icon48.png",
